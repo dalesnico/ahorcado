@@ -98,11 +98,6 @@ pasoUno = string(palabra)
 secreto = ["-"]*len(palabra)
 print("".join(secreto) + " <---- aca la palabra que tenes que adividar \r\n")
 cuerda = pasoUno["pri"]+pasoUno["x"]+pasoUno["ult"]
-#print(cuerda)
-#print(pasoUno["ult"])
-#print(pasoUno["x"])
-#print(pasoUno["contar"])
-#print("Participante 2:  PALABRA a ADIVINAR ES:" +  first,b,last)
 
     
 #loop ahorcado
