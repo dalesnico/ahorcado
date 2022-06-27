@@ -104,7 +104,7 @@ cuerda = pasoUno["pri"]+pasoUno["x"]+pasoUno["ult"]
 kill = 0
 z = ""
 while kill < 9 and palabra != z:
-    letra = input("ingrese una letra: \r\n")
+    letra = input("ingrese una letra: ")
     if letra in palabra:
         ok(letra,pasoUno["x"],len(palabra),palabra,cuerda)#ir a funcion OK
         print("ZAFASTE!!!!! pero por esta vez!!!\r\n")
