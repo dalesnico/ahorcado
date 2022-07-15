@@ -94,9 +94,16 @@ def ok(l,x,c,p,cc):
 #comienzo del Juego 
    
 palabra = getpass("participante 1: Ingrese una palabra: \r\n")
+
+#ingreso de palabra en cli
 pasoUno = string(palabra)
+
+#reemplazo el total de caracteres de palabra por "-"
 secreto = ["-"]*len(palabra)
-print("".join(secreto) + " <---- aca la palabra que tenes que adividar \r\n")
+
+print("".join(secreto) + " <---- Esta es la palabra que tenes que adividar, es FACIL \r\n")
+
+
 cuerda = pasoUno["pri"]+pasoUno["x"]+pasoUno["ult"]
 
     
